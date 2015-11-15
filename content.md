@@ -22,6 +22,12 @@ its own structure and behavior at runtime.
 > &mdash; By Peter F. Drucker
 
 
+Concepts of reflection
+* **structural reflection**:ability of the program to provide full reification of both program currently being executed and a complete reification of its abstract data types
+	
+* **behavioral reflection**:complete reification of its semantics(processor) as well as complete reification of the data    it uses to execute the current program
+
+
 In most computer architectures, particularly the **Von Neuman** architecture,
 program instructions are stored as data. The distinction between instruction
 and data is merely a matter of how the information is treated by the computer
@@ -44,6 +50,12 @@ program instructions can be modified dynamically at runtime and invoked in their
 
 
 
+Role of reflective programming
+* Allow migration of software
+* Adaptation to new technologies
+* Adaptation to new needs
+
+
 ## examples:
 
 * discover and modify source code constructions (such as code blocks, classes, methods, protocols, etc.) as a first-class object at runtime
@@ -59,6 +71,9 @@ program instructions can be modified dynamically at runtime and invoked in their
 
 * Untrusted content: user-submitted content
 * Cost of evaluation
+* Design costs-need more care and iteration
+* Use cost-Complex concepts
+* Run-time cost-intercession itself provides an overhead
 
 
 
