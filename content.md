@@ -50,7 +50,7 @@ program instructions can be modified dynamically at runtime and invoked in their
 
 
 
-##Role of reflective programming
+##role of reflective programming
 * Allow migration of software
 * Adaptation to new technologies
 * Adaptation to new needs
