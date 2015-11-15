@@ -1,0 +1,34 @@
+/* Sponsor logo */
+.forfuture-logo {
+  margin: 40px;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 64px;
+  position: absolute;
+}
+
+/* Source code snippets */
+.codeblock {
+  height: 400px;
+}
+
+/* Illustrations, made with libreoffice */
+.illustration {
+  background: white !important;
+}
+
+/* The Node.js logo */
+.nodejs-logo {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  height: 128px;
+  padding: 20px !important;
+}
+
+.make-big {
+   font-size: 40px !important;
+   padding: 30px !important;
+   width: 100%;
+}
